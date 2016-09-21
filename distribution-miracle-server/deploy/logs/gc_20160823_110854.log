@@ -1,0 +1,14 @@
+Java HotSpot(TM) 64-Bit Server VM (25.112-b04) for bsd-amd64 JRE (1.8.0_112-ea-b04), built on Jul 25 2016 16:02:00 by "java_re" with gcc 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)
+Memory: 4k page, physical 8388608k(490428k free)
+
+/proc/meminfo:
+
+CommandLine flags: -XX:CMSInitiatingOccupancyFraction=60 -XX:CMSTriggerRatio=70 -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/Users/guoxin/distribution-service/distribution-miracle-server/deploy/tmp/heapdump_20160823_110854.hprof -XX:InitialHeapSize=536870912 -XX:+ManagementServer -XX:MaxHeapSize=1073741824 -XX:MaxNewSize=536870912 -XX:MaxTenuringThreshold=6 -XX:NewSize=536870912 -XX:OldPLABSize=16 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC
+Heap
+ par new generation   total 471808K, used 33552K [0x0000000780000000, 0x000000079fff0000, 0x00000007a0000000)
+  eden space 419392K,   8% used [0x0000000780000000, 0x00000007820c40e8, 0x0000000799990000)
+  from space 52416K,   0% used [0x0000000799990000, 0x0000000799990000, 0x000000079ccc0000)
+  to   space 52416K,   0% used [0x000000079ccc0000, 0x000000079ccc0000, 0x000000079fff0000)
+ concurrent mark-sweep generation total 64K, used 0K [0x00000007a0000000, 0x00000007a0010000, 0x00000007c0000000)
+ Metaspace       used 7013K, capacity 7100K, committed 7296K, reserved 1056768K
+  class space    used 819K, capacity 848K, committed 896K, reserved 1048576K

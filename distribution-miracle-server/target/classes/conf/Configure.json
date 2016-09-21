@@ -1,0 +1,20 @@
+{
+  "commonConf": {
+    "huskarUrl": "",
+    "huskarToken": "",
+    "traceUrl": "",
+    "metricUrl": ""
+  },
+  "serverConf": {
+    "name": "distribution.base",
+    "protocol": "json",
+    "group": "local",
+    "port": 8088,
+    "threadPoolSize": 24,
+    "bufferQueueSize": 3000,
+    "initializer": "me.ele.distribution.miracle.impl.soa.ServiceInitializer",
+    "interfaces": [
+      "me.ele.distribution.miracle.api.InqueryService"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+appid: {{_ .APP_ID}}
+version: 1.0.0
+os: centos7
+language: java
+apptype: app
+hooks:
+  ValidateService:
+    - location: sh ./validate.sh
+      timeout: 20

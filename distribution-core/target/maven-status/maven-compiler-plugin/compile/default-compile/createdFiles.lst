@@ -1,0 +1,4 @@
+me/ele/distribution/common/redis/RedisClient.class
+me/ele/distribution/common/redis/RedisClientUtil$ProxyHandler.class
+me/ele/distribution/common/biz/InqueryBiz.class
+me/ele/distribution/common/redis/RedisClientUtil.class

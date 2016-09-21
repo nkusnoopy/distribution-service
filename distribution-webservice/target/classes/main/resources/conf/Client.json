@@ -1,0 +1,23 @@
+{
+  "commonConf": {
+    "huskarUrl": "",
+    "huskarToken": "",
+    "traceUrl": "",
+    "metricUrl": ""
+  },
+  "clientConfs": [
+    {
+      "name": "distribution.base",
+      "protocol": "json",
+      "group": "stable",
+      "threadPoolSize": 24,
+      "timeoutInMillis": 3000,
+      "interfaces": [
+        "me.ele.distribution.miracle.api.InqueryService"
+      ],
+      "lbStrategy": "round-robin",
+      "tpStrategy": "queue",
+      "providerList":["localhost:8088"]
+    }
+  ]
+}

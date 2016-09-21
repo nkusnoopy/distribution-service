@@ -1,0 +1,8 @@
+me/ele/distribution/miracle/impl/soa/ServiceDump.class
+me/ele/distribution/miracle/impl/TestMain.class
+me/ele/distribution/miracle/impl/soa/ServiceChecker.class
+me/ele/distribution/miracle/impl/soa/SoaClient.class
+me/ele/distribution/miracle/impl/InqueryServiceImpl.class
+me/ele/distribution/miracle/impl/soa/ServiceDump$ServiceInfo.class
+me/ele/distribution/miracle/impl/soa/ServiceDump$1.class
+me/ele/distribution/miracle/impl/soa/ServiceInitializer.class
